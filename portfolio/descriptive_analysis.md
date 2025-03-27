@@ -54,12 +54,12 @@ Used `.describe()` and `.info()` in `data_summary.ipynb` to explore:
 ---
 
 ## 📸 Screenshot 
-https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220102.png
-https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220121.png
-https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220136.png
-https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220149.png
-https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220208.png
-https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220218.png
+![Data Summarization Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220102.png)
+![Data Summarization Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220121.png)
+![Data Summarization Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220136.png)
+![Data Summarization Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220149.png)
+![Data Summarization Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220208.png)
+![Data Summarization Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220218.png)
 
 
  ---
