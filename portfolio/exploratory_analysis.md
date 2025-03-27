@@ -63,19 +63,21 @@ plt.xlabel('Violations')
 plt.ylabel('Geo Local Area')
 plt.tight_layout()
 plt.show()
+```
 
 ---
-💡 Interpretation
-🔥 Hotspot Areas: Downtown and Mount Pleasant may need focused city resources.
 
-🧾 Frequent Offenders: A handful of operators are responsible for repeat violations.
+## 💡 Interpretation
 
-💸 Outstanding Fines: Financial metrics could help prioritize enforcement or support.
+- 🔥 **Hotspot Areas**: Downtown and Mount Pleasant may need focused city resources.
+- 🧾 **Frequent Offenders**: A handful of operators are responsible for repeat violations.
+- 💸 **Outstanding Fines**: Financial metrics could help prioritize enforcement or support.
 
-📂 Files Linked
-data_summary.ipynb
+---
 
-rental-standards-current-issues.csv
+## 📂 Files Linked
 
+- [`data_summary.ipynb`](../notebooks/data_summary.ipynb)
+- [`rental-standards-current-issues.csv`](../data/rental-standards-current-issues.csv)
 
-
+---
