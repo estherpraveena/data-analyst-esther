@@ -1,3 +1,9 @@
+### 📥 Data Ingestion Step (via AWS S3)
+
+- The original dataset `rental-standards-current-issues.csv` was uploaded to an S3 bucket.
+- File format: CSV (semicolon-delimited)
+- This ingestion step allowed downstream profiling and cleaning using AWS Glue DataBrew.
+
 # ☁️ AWS Glue DataBrew: Data Wrangling Workflow
 
 ## 🎯 Objective
