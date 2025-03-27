@@ -46,23 +46,20 @@ To demonstrate a **low-code data wrangling** workflow using **AWS Glue DataBrew*
 - Uploaded `rental-standards-current-issues.csv` to an S3 bucket
 - File was semicolon `;` separated and needed parsing
 - To have a visualization of our data summary, I created an AWS Glue DataBrew project and named it "Praveena Project” and the recipe named "Praveena Project-recipe”. I then connected this new project to the raw data I previously uploaded and stored in an Amazon S3 bucket. praveendata
-- 
-![Databrew Upload Screenshot](../assets/db1.jpg)
-![Databrew Upload Screenshot](../assets/db2.jpg)
-![Databrew Upload Screenshot](../assets/db3.jpg)
-
-To connect my initially uploaded data, I chose to connect to new data, and then the option to search and select my initial data came up, so I chose our raw data uploaded earlier:
-![Databrew Upload Screenshot](../assets/db4.jpg)
-
+- To connect my initially uploaded data, I chose to connect to new data, and then the option to search and select my initial data came up, so I chose our raw data uploaded earlier:
 I have also given permission: role name as LabRole.
 My data type is in Excel CSV format.
 My data nature is separated by the delimiter “;”, so I chose it to help create columns in transforming my data to columns.
 I am also treating my first row as a header.
 Here is a snapshot of my data transformation parameters while creating the project
 
-![Databrew Upload Screenshot](../assets/db5.jpg)
-
 After creating our project (Praveena Project) and connecting it to our raw data, the figure below shows the screen of our project data:
+- 
+![Databrew Upload Screenshot](../assets/db1.jpg)
+![Databrew Upload Screenshot](../assets/db2.jpg)
+![Databrew Upload Screenshot](../assets/db3.jpg)
+![Databrew Upload Screenshot](../assets/db4.jpg)
+![Databrew Upload Screenshot](../assets/db5.jpg)
 ![Databrew Upload Screenshot](../assets/db6.jpg)
 ![Databrew Upload Screenshot](../assets/db7.jpg)
 
