@@ -38,9 +38,6 @@ This project was built to demonstrate end-to-end data analytics skills using rea
 
 Thanks to the City of Vancouver for the public dataset!
 
-git add .
-git commit -m "Finalized portfolio project"
-git push
 
 ---
 Built with 💡 by [Esther Praveena]
