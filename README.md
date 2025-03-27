@@ -1,3 +1,7 @@
+
+# AWS BADGE 
+![AWS Badge](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20222407.png)
+
 # 📊 Rental Standards Data Analysis Portfolio
 
 This portfolio project demonstrates a complete data analytics workflow, including:
