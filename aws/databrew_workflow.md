@@ -75,7 +75,7 @@ After creating our project (Praveena Project) and connecting it to our raw data,
   - Data types
   - Unique values per column
     Here are the screenshots for stepwise process
-   ![Databrew Upload Screenshot](../assets/db8.jpg)
+![Databrew Upload Screenshot](../assets/db8.jpg)
 ![Databrew Upload Screenshot](../assets/db9.jpg)
 ![Databrew Upload Screenshot](../assets/db10.jpg)
 ![Databrew Upload Screenshot](../assets/db11.jpg)
@@ -90,6 +90,10 @@ After creating our project (Praveena Project) and connecting it to our raw data,
 | Rename columns | For readability: `BUSINESSOPERATOR → Business_Operator` |
 | String cleanup | Trimmed whitespaces from column names |
 | Column split | Used string split on `geo_point_2d` to extract Latitude & Longitude |
+
+We have a new transformed data; we can now use this data moving forward. At this stage, I create a new project because I do not want to interfere with our original project and its dataset.
+I therefore create a new project “Praveena Project 2”, using the newly created dataset “praveen3data”. In the project, I also created a new recipe for cleaning our data from the issues identified in the previous step, named it “Praveena Project 2-recipe.”
+
 
 ---
 
