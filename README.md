@@ -29,6 +29,19 @@ This portfolio project demonstrates a complete data analytics workflow, includin
 - [EDA Summary](portfolio/exploratory_analysis.md)
 - [Descriptive Summary](portfolio/descriptive_analysis.md)
 
+
+---
+
+## 🙌 Acknowledgements
+
+This project was built to demonstrate end-to-end data analytics skills using real tools like AWS, Pandas, Seaborn, and GitHub markdown.
+
+Thanks to the City of Vancouver for the public dataset!
+
+git add .
+git commit -m "Finalized portfolio project"
+git push
+
 ---
 Built with 💡 by [Esther Praveena]
 # data-analyst-esther
