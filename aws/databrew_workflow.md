@@ -130,7 +130,7 @@ I can now design a visual ETL (Extract, Transform, Load) pipeline “Praveena ET
 Source Data Selection: The cleaned data (stored in parquet format) was used as the source for the pipeline.
 
 
-![Data Cleaning Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot2025-03-26215147.png)
+![Data Cleaning Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20215147.png)
 
 
 ## 🗂️ Files Related
