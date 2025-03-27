@@ -75,7 +75,6 @@ After creating our project (Praveena Project) and connecting it to our raw data,
   - Data types
   - Unique values per column
     Here are the screenshots for stepwise process
-![Databrew Upload Screenshot](../assets/db8.jpg)
 ![Databrew Upload Screenshot](../assets/db9.jpg)
 ![Databrew Upload Screenshot](../assets/db10.jpg)
 ![Databrew Upload Screenshot](../assets/db11.jpg)
