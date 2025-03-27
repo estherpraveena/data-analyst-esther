@@ -96,9 +96,40 @@ I therefore create a new project “Praveena Project 2”, using the newly creat
 ![Data Cleaning Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20212400.png)
 ![Data Cleaning Upload Screenshot](../assets/Screenshot2025-03-26212419.png)
 
+From the new project, am now in a position to build the recipe to clean the data.
+Here are the main actions that I include in the recipe:
+•	Renaming columns for better clarity and standardization.
+•	Dropping unnecessary columns that were not relevant to the analysis.
+•	Removing unwanted spaces in text fields to ensure consistency in string data.
+Here is a list of our recipes created for Project 2:
+![Data Cleaning Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/a.png)
+
+Based on our recipe data cleaning, we now have a new set of clean data, here is a summary of the data with new variable names, no empty spaces, and more:
+![Data Cleaning Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/b.png)
+
 
 
 ---
+
+
+### 📚 AWS Glue Data Catalog
+
+The dataset was registered in the **AWS Glue Data Catalog**, enabling:
+
+- Centralized schema management
+- Easier discoverability for downstream tools (e.g., AWS Athena, )
+- Integration with other ETL pipelines
+
+Using the Data Catalog ensured that the schema for the dataset (columns, types, and format) remained consistent and queryable across services.
+
+First, we do data pipeline design, then we do data cataloging.
+Pipeline Design
+We navigate to the AWS Glue console for this task at https://console.aws.amazon.com/glue (when logged in, this redirects to the proper region AWS glue link)
+Navigating to the Visual ETL tab gives us the AWS Glue Studio where we accomplish the task. I choose Visual ETL.
+I can now design a visual ETL (Extract, Transform, Load) pipeline “Praveena ETL Job” using AWS Glue to perform data processing:
+Source Data Selection: The cleaned data (stored in parquet format) was used as the source for the pipeline.
+
+
 
 ### 4. ✅ Output
 
