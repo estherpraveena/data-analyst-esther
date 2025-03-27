@@ -3,6 +3,10 @@
  ## 🎯 Objective
  
  The goal of this module was to perform **descriptive analysis** on the raw rental standards dataset. This step helps identify the basic structure, data types, missing values, and high-level distributions within the data before proceeding to deeper analytics.
+
+ I have downloaded my data, imported it into AWS, transformed the data, created recipes, run a number of jobs, and completed a series of tasks to have our data. The data is stored and is now ready to use.
+I did my summarization using AWS Glue DataBrew.
+
  
  ---
  
@@ -16,7 +20,48 @@
    - `Geo Local Area`
    - `TOTALOUTSTANDING`
    - `geo_point_2d`
- 
+
+---
+
+## 🧮 Summary Statistics
+
+Used `.describe()` and `.info()` in `data_summary.ipynb` to explore:
+
+- **Total records**
+- **Missing values**
+- **Min, max, mean, std dev** of numeric fields
+- **Most frequent values** in categorical fields
+
+---
+
+## 📈 Highlights
+
+### ✅ Numeric Columns
+- `TOTALOUTSTANDING`: Wide range, some outliers (max above $10,000)
+- `TotalUnits`: Mostly under 50, some with hundreds of units
+
+### ✅ Categorical Columns
+- `BUSINESSOPERATOR`: Several repeating names, some rare
+- `Geo Local Area`: Downtown & Renfrew-Collingwood top two
+
+---
+
+## 🔎 Missing Data
+
+- Columns like `Geom` or `Geo Local Area` had very few missing values
+- Most rows had sufficient data for analysis and visualizations
+
+---
+
+## 📸 Screenshot 
+https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220102.png
+https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220121.png
+https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220136.png
+https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220149.png
+https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220208.png
+https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot%202025-03-26%20220218.png
+
+
  ---
  
  ## 🧰 Tools Used
