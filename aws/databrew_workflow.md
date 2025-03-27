@@ -1,0 +1,81 @@
+# ☁️ AWS Glue DataBrew: Data Wrangling Workflow
+
+## 🎯 Objective
+
+To demonstrate a **low-code data wrangling** workflow using **AWS Glue DataBrew** on the rental standards dataset from the City of Vancouver.
+
+---
+
+## 📊 Dataset Overview
+
+- 📁 File: `rental-standards-current-issues.csv`
+- 📦 Source: [City of Vancouver Open Data Portal](https://opendata.vancouver.ca/explore/dataset/rental-standards-current-issues)
+- 🧭 Focus: Clean-up of missing values, data types, and location fields (`geo_point_2d`)
+
+---
+
+## 🧰 Tools Used
+
+| Type       | Tool / Service     |
+|------------|--------------------|
+| Storage    | Amazon S3          |
+| Wrangling  | AWS Glue DataBrew  |
+| Profiling  | DataBrew Profile Jobs |
+| Notebook (for comparison) | Google Colab (`data_cleaning.ipynb`) |
+
+---
+
+## 🔄 Steps in AWS DataBrew
+
+### 1. 🔹 Dataset Upload
+
+- Uploaded `rental-standards-current-issues.csv` to an S3 bucket
+- File was semicolon `;` separated and needed parsing
+
+---
+
+### 2. 🧪 Data Profiling Job
+
+- Created **Profile Job** in DataBrew to auto-detect:
+  - Missing values
+  - Null % per column
+  - Data types
+  - Unique values per column
+
+---
+
+### 3. 🧹 Data Cleaning via Recipes
+
+| Task | Action |
+|------|--------|
+| Remove nulls | Dropped rows with missing `geo_point_2d` |
+| Rename columns | For readability: `BUSINESSOPERATOR → Business_Operator` |
+| String cleanup | Trimmed whitespaces from column names |
+| Column split | Used string split on `geo_point_2d` to extract Latitude & Longitude |
+
+---
+
+### 4. ✅ Output
+
+- Exported cleaned dataset to **S3 output folder**
+- Final format: CSV with clean headers and location split into `Latitude` and `Longitude`
+
+---
+
+## 🗂️ Files Related
+
+- [`aws/databrew_workflow.md`](databrew_workflow.md)
+- [`data_cleaning.ipynb`](../notebooks/data_cleaning.ipynb)
+- [`rental-standards-current-issues.csv`](../data/rental-standards-current-issues.csv)
+
+---
+
+## 🧠 Reflection
+
+AWS Glue DataBrew provided a powerful visual, low-code platform to:
+- Automate profiling
+- Generate reusable cleaning steps (recipes)
+- Speed up initial wrangling for analysis
+
+---
+
