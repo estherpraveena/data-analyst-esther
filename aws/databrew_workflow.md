@@ -93,6 +93,10 @@ After creating our project (Praveena Project) and connecting it to our raw data,
 We have a new transformed data; we can now use this data moving forward. At this stage, I create a new project because I do not want to interfere with our original project and its dataset.
 I therefore create a new project “Praveena Project 2”, using the newly created dataset “praveen3data”. In the project, I also created a new recipe for cleaning our data from the issues identified in the previous step, named it “Praveena Project 2-recipe.”
 
+![Data Cleaning Upload Screenshot](../assets/Screenshot 2025-03-26 212400.png)
+![Data Cleaning Upload Screenshot](../assets/Screenshot 2025-03-26 212419.png)
+
+
 
 ---
 
