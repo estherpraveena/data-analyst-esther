@@ -130,13 +130,8 @@ I can now design a visual ETL (Extract, Transform, Load) pipeline “Praveena ET
 Source Data Selection: The cleaned data (stored in parquet format) was used as the source for the pipeline.
 
 
+![Data Cleaning Upload Screenshot](https://github.com/estherpraveena/data-analyst-esther/blob/main/assets/Screenshot2025-03-26215147.png)
 
-### 4. ✅ Output
-
-- Exported cleaned dataset to **S3 output folder**
-- Final format: CSV with clean headers and location split into `Latitude` and `Longitude`
-
----
 
 ## 🗂️ Files Related
 
@@ -144,14 +139,7 @@ Source Data Selection: The cleaned data (stored in parquet format) was used as t
 - [`data_cleaning.ipynb`](../notebooks/data_cleaning.ipynb)
 - [`rental-standards-current-issues.csv`](../data/rental-standards-current-issues.csv)
 
----
 
-## 🧠 Reflection
-
-AWS Glue DataBrew provided a powerful visual, low-code platform to:
-- Automate profiling
-- Generate reusable cleaning steps (recipes)
-- Speed up initial wrangling for analysis
 
 ---
 
