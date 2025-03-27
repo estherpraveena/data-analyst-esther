@@ -3,13 +3,13 @@
 - The original dataset `rental-standards-current-issues.csv` was uploaded to an S3 bucket.
 - File format: CSV (semicolon-delimited)
 - This ingestion step allowed downstream profiling and cleaning using AWS Glue DataBrew.
-[Raw Data](../assets/s31.jpg)
-[Raw Data](../assets/s32.jpg)
-[Raw Data](../assets/s33.jpg)
-[Raw Data](../assets/s34.jpg)
-[Raw Data](../assets/s35.jpg)
-[Raw Data](../assets/s36.jpg)
-[Raw Data](../assets/s37.jpg)
+![S3 Upload Screenshot](../assets/s31.jpg)
+![S3 Upload Screenshot](../assets/s32.jpg)
+![S3 Upload Screenshot](../assets/s33.jpg)
+![S3 Upload Screenshot](../assets/s34.jpg)
+![S3 Upload Screenshot](../assets/s35.jpg)
+![S3 Upload Screenshot](../assets/s36.jpg)
+![S3 Upload Screenshot](../assets/s37.jpg)
 
 
 # ☁️ AWS Glue DataBrew: Data Wrangling Workflow
